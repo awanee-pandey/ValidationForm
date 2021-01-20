@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src = "script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form class="registration__form" id="form">
+          <h1>Register With Us</h1>
+          <div class="form-control">
+            <label for ="userName">Username<span class="highlight">*</span> </label>
+            <input type="text" placeholder="Name" id="username">
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Email<span class="highlight">*</span></label>
+            <input type="email" placeholder="Email" id="email" >
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Password<span class="highlight">*</span></label>
+            <input type="password" placeholder="Password" id="password" >
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <label>Confirm Password<span class="highlight">*</span></label>
+            <input type="password" placeholder="Confirm Password" id = "confirmPassword" >
+            <small>Error message</small>
+          </div>
+          <button type="submit" class="formbtn" id= "btn">Sign Up</button>
+        </form>
+      <div class="sideImage">
+        <img src="img/undraw_approve_qwp7.svg" />
+      </div>
+    </div>
+  </body>
+</html>
